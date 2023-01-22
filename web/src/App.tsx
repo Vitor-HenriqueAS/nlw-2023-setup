@@ -1,5 +1,5 @@
 import './styles/global.css';
-
+import './lib/dayjs';
 import { Header } from './components/Header';
 import { SummaryTable } from './components/SummaryTable';
 
@@ -15,3 +15,7 @@ export function App() {
 		</div>
   )
 }
+
+//AUTENTICAÇÃO = FIREBASE - AUTH0
+//NOTIFICAÇÕES / SERCES WORKS
+//PERFIL PUBLICO
